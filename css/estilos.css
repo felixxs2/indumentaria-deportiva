@@ -255,7 +255,6 @@ iframe{
     font-family: fuente-prueba;
     font-weight: bolder;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-self: center;
     grid-area: texto;
@@ -285,6 +284,7 @@ iframe{
     display: flex;
     font-family: fuente-prueba;
     grid-area: footer1;
+    align-self: center;
     justify-content: center;
 }
 
@@ -304,11 +304,12 @@ iframe{
         justify-self: space-between;
         flex-wrap: nowrap;
     }
-    .grid-container > img{
+    .grid-container img{
         width:40%;
     }
 
     .footeracc{
-        align-self: ;
+        align-self:center;
+        justify-self: center;
     }
 }
