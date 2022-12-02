@@ -1,0 +1,320 @@
+body{
+    background-color: rgba(88, 123, 236, 0.966);
+    font-family: fuente-prueba;
+}
+
+
+/*fuente personalizada*/
+@font-face {
+    font-family: fuente-prueba;
+    src: url(../assets/fuentes/work-sans.ttf)
+}
+/*fuente personalizada*/
+
+
+
+
+iframe{
+    width: 35%;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+
+.locales-edit{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+
+
+.formulario-completar{
+    display: flex;
+    flex-direction: column;
+    line-height: 36px;
+}
+
+.formulario-edit{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+
+.mensaje-edit{
+    margin-top: 75px;
+}
+
+
+.formulario-editar{
+    display: flex;
+    flex-direction: column;
+    text-align: flex-start;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+
+.footer-edit{
+    background-color: lightblue;
+    margin-top: 50px;
+    font-size: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.texto-dere{
+    font-size: 150%;
+    justify-content: center;
+    display: flex;
+    text-decoration: underline;
+    margin-bottom: 250px;
+    margin-top: 180px;
+}
+
+
+#listas-edit{
+    font-weight: bold;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: lightgray;
+} 
+
+.flex-container{display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+
+#imagen-3{
+    width: 30%;
+    border: 5px solid lightslategray;
+    margin: 50px 50px 0px 0px;
+    border-radius: 10px;
+}
+
+#imagen-2{
+    width: 30%;
+    border: 5px solid lightslategray;
+    margin: 50px 50px 0px 0px;
+    border-radius: 10px;
+}
+
+#imagen-1{
+    width: 30%;
+    border: 5px solid lightslategray;
+    margin: 50px 50px 0px 0px;
+    border-radius: 10px;
+}
+
+#imagen-4{
+    width: 30%;
+    border: 5px solid lightslategray;
+    margin: 50px 50px 0px 0px;
+    border-radius: 10px;
+}
+
+#imagen-5{
+    width: 30%;
+    border: 5px solid lightslategray;
+    margin: 50px 50px 0px 0px;
+    border-radius: 10px;
+}
+
+
+#imagen-6{
+    width: 30%;
+    border: 5px solid lightslategray;
+    margin: 50px 50px 0px 0px;
+    border-radius: 10px;
+}
+
+
+.foto-accesorios1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.icono-pagina{
+    width: 10%;
+    display: flex;
+    align-self: flex-start;
+}
+
+
+.texto-home{
+    color: black;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+
+.sub-texto-home{
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.imagenes-inicio{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-inicio1{
+    width: 100%;
+    margin: 50px 0px 0px 0px;
+}
+
+.imagen-inicio2{
+    width: 100%;
+    height: 600px;
+    margin: 50px 0px 0px 0px;
+}
+
+
+
+.texto-imagen-inicio{
+    font-family: fuente-prueba;
+    margin-top: 200px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: overline underline;
+}
+
+
+
+.edit-navegador{
+    display: grid;
+    justify-content: center;
+    max-width: 2000px;
+    grid-template-columns: 300px 1200px 200px;
+}
+
+
+.edit-navegador div{
+    font-weight: bolder;
+}
+
+
+.texto-imagen-inicio2{
+    font-family: fuente-prueba;
+    margin-top: 70px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: overline underline;
+}
+
+
+
+
+
+.grid-container{
+    display: grid;
+
+    gap: 20px;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, auto);
+
+    grid-template-columns: 150px auto 150px;
+    grid-template-rows: repeat(5, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+
+    grid-template-areas: 
+    "texto texto texto"
+    "aside  foto1  aside2"
+    "aside  foto2  aside2"
+    "aside  foto3  aside2"
+    "footer1 footer1 footer1"
+    ;
+}
+
+
+
+
+.texto-accse{
+    font-family: fuente-prueba;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    grid-area: texto;
+}
+
+
+.accesorios-foto{
+    width: 20%;
+    justify-self: center;
+    grid-area: foto1;
+}
+
+
+.guantesbox{
+    grid-area: foto2;
+    width: 20%;
+    justify-self: center;
+}
+
+.guantedegym{
+    width: 20%;
+    justify-self: center;
+    grid-area: foto3;
+}
+
+.footeracc{
+    display: flex;
+    font-family: fuente-prueba;
+    grid-area: footer1;
+    align-self: center;
+    justify-content: center;
+}
+
+
+.lista-accse{
+    font-family: fuente-prueba;
+    margin: 30px;
+    grid-area: aside;
+    justify-self: center;
+    align-self: center;
+    text-decoration: underline;
+}
+
+
+$font-family: arial, sans-serif;
+
+
+@media all and (max-width: 750px){
+    #listas-edit{
+        justify-self: space-between;
+        flex-wrap: nowrap;
+    }
+    .grid-container img{
+        width:40%;
+        
+    }
+
+    .footeracc{
+        align-self:center;
+        justify-self: center;
+    }
+}
