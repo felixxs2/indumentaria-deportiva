@@ -1,5 +1,5 @@
 body {
-  background-color: beige;
+  background-color: rgba(88, 123, 236, 0.966);
   font-family: fuente-prueba;
 }
 
@@ -204,7 +204,8 @@ iframe {
   grid-template-columns: repeat(4, auto);
   grid-template-columns: 150px auto 150px;
   grid-template-rows: repeat(5, 1fr);
-  column-gap: 20px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
   row-gap: 20px;
   grid-template-areas: "texto texto texto" "aside  foto1  aside2" "aside  foto2  aside2" "aside  foto3  aside2" "footer1 footer1 footer1";
 }
@@ -253,75 +254,49 @@ iframe {
   text-decoration: underline;
 }
 
-
-a:hover{
-  background-color: lightcoral;
-  border-radius: 5px;
-  color: whitesmoke;
-  padding: 5px;
+body {
+  background-color: beige;
 }
 
-
-a:active{
-  background-color: aqua;
+h1 {
+  font-size: 10px;
 }
 
-
-.grupo{
-  padding: 10px;
-  background-color: gray;
-  margin: 20px auto;
-  width: 500px;
-  border-radius: 5px;
+h2 {
+  font-size: 20px;
 }
 
-.parrafos p:first-child{
-  background-color: red;
-  color: white;
+h3 {
+  font-size: 30px;
 }
 
-.parrafos p:last-child{
+h4 {
+  font-size: 40px;
+}
+
+h5 {
+  font-size: 50px;
+}
+
+div {
   background-color: green;
-  color: white;
+  text-align: center;
+  padding: 35px;
+  font-size: 1rem;
 }
 
-
-.elementos p:first-of-type{
-  background: blueviolet;
-  color: white;
-}
-
-
-.elementos div:first-of-type{
+.card, .usercard {
   background: red;
-  color: white;
+  border-radius: 5px;
+  padding: 16px;
+  box-shadow: 1px 1px 12px 0px;
 }
 
-
-.elementos p:last-of-type{
-  background: blue;
-  color: white;
+.caja {
+  border: 10px solid red;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px black;
 }
-
-
-.elementos div:last-of-type{
-  background: violet;
-  color: white;
-}
-
-
-.listens :nth-child(odd){
-  background: blue;
-  color: white;
-}
-
-
-
-
-
-
-
-
 
 @media all and (max-width: 750px) {
   #listas-edit {
@@ -335,6 +310,4 @@ a:active{
     align-self: center;
     justify-self: center;
   }
-}
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */
