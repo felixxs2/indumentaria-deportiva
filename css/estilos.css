@@ -1,5 +1,5 @@
 body {
-  background-color: beige;
+  background-color: lightyellow;
   font-family: fuente-prueba;
 }
 
@@ -27,50 +27,55 @@ iframe {
   display: flex;
   flex-direction: column;
   line-height: 36px;
+  align-items: flex-start;
+  margin-top: 150px;
 }
 
 .formulario-edit {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
+  text-decoration: underline;
 }
 
 .mensaje-edit {
-  margin-top: 75px;
+  margin-top: 150px;
 }
+
 
 .formulario-editar {
   display: flex;
   flex-direction: column;
-  text-align: flex-start;
+  text-align: center;
   flex-wrap: wrap;
   margin-top: 100px;
 }
 
 .footer-edit {
-  background-color: lightblue;
   margin-top: 50px;
   font-size: 80%;
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
+
 }
 
 .texto-dere {
   font-size: 150%;
   justify-content: center;
   display: flex;
-  text-decoration: underline;
   margin-bottom: 250px;
   margin-top: 180px;
+  box-shadow: 2px 2px 2px 2px lightseagreen;
 }
 
 #listas-edit {
   font-weight: bold;
-  color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: lightgray;
+  box-shadow: 3px 3px 3px 3px lightseagreen;  
+  padding: 20px;
 }
 
 .flex-container {
@@ -173,7 +178,7 @@ iframe {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  text-decoration: overline underline;
+  box-shadow: 2px 2px 2px 2px lightseagreen;
 }
 
 .edit-navegador {
@@ -194,7 +199,7 @@ iframe {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  text-decoration: overline underline;
+  box-shadow: 2px 2px 2px 2px lightseagreen;
 }
 
 .grid-container {
@@ -255,7 +260,7 @@ iframe {
 
 
 a:hover{
-  background-color: lightcoral;
+  background-color: lightseagreen;
   border-radius: 5px;
   color: whitesmoke;
   padding: 5px;
@@ -314,7 +319,6 @@ a:active{
   background: blue;
   color: white;
 }
-
 
 
 
