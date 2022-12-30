@@ -27,7 +27,7 @@ iframe {
   display: flex;
   flex-direction: column;
   line-height: 36px;
-  align-items: flex-start;
+  align-items: center;
   margin-top: 150px;
 }
 
@@ -40,6 +40,21 @@ iframe {
 
 .mensaje-edit {
   margin-top: 150px;
+  text-decoration: underline;
+}
+
+.mensaje-edit-form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.boton-mensaje{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 
@@ -165,18 +180,12 @@ iframe {
   margin: 50px 0px 0px 0px;
 }
 
-.imagen-inicio2 {
-  width: 100%;
-  height: 600px;
-  margin: 50px 0px 0px 0px;
-}
 
 .texto-imagen-inicio {
   font-family: fuente-prueba;
   margin-top: 200px;
   font-weight: bolder;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   box-shadow: 2px 2px 2px 2px lightseagreen;
 }
@@ -223,6 +232,8 @@ iframe {
   grid-area: texto;
 }
 
+
+
 .accesorios-foto {
   width: 20%;
   justify-self: center;
@@ -247,15 +258,6 @@ iframe {
   grid-area: footer1;
   align-self: center;
   justify-content: center;
-}
-
-.lista-accse {
-  font-family: fuente-prueba;
-  margin: 30px;
-  grid-area: aside;
-  justify-self: center;
-  align-self: center;
-  text-decoration: underline;
 }
 
 
